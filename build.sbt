@@ -1,7 +1,6 @@
-name := "scala-test"
-
-version := "0.1.0-SNAPSHOT"
-
-scalaVersion := "3.5.0"
-
-libraryDependencies += "org.scalameta" %% "munit" % "1.0.0" % Test
+lazy val root = (project in file("."))
+  .settings(
+    name := "scala-learning",
+    version := "0.1.0",
+    scalaVersion := "3.3.0" // or the latest Scala 3 version
+  )
