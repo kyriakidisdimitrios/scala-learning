@@ -91,7 +91,7 @@ To compile and run your Scala project using PowerShell, follow these steps:
      ```
    - Press **Enter** to execute this command. SBT will compile the project again if necessary and then run the main class specified in your `build.sbt` file. If your project has multiple main classes, SBT will ask you to select which one to run.
 
-### 5. <span style="color: #cc3333;">Opening the Project in IntelliJ IDEA Ultimate</span>
+### 5. <span style="color: #3399ff;">Opening the Project in IntelliJ IDEA Ultimate</span>
 
 1. **Open IntelliJ IDEA Ultimate**.
 
@@ -111,7 +111,28 @@ To compile and run your Scala project using PowerShell, follow these steps:
    - Click on the **"+"** icon to add a new configuration and select **"Application"**.
    - Set the main class and other parameters as needed for your Scala application.
 
-### <span style="color: #ff6666;">Important Note on IntelliJ and Scala Compiler Issues</span>
+### 6. <span style="color: #33ccff;">Using Scala 3 with Visual Studio Code</span>
+
+1. **Install Visual Studio Code**:
+   - Download and install Visual Studio Code from [the official website](https://code.visualstudio.com/).
+
+2. **Install Scala 3 Extensions**:
+   - Open Visual Studio Code.
+   - Go to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or pressing `Ctrl+Shift+X`.
+   - Search for and install the **"Metals"** extension. This extension provides Scala language support and integrates with Scala CLI and SBT.
+
+3. **Open Your Project**:
+   - Click on **"File"** > **"Open Folder"** and select your Scala project directory.
+
+4. **Configure Scala CLI and SBT**:
+   - Ensure Scala CLI and SBT are installed and properly configured as per the instructions above.
+   - Visual Studio Code will use these tools to build and run your project.
+ 
+5. **Running the Project**:
+   - Open the Command Palette by pressing `Ctrl+Shift+P`.
+   - Type `Run Without Debugging` and select it. This will compile and run your Scala application based on the active file or configuration.
+
+### 7. <span style="color: #cc3333;">Important Note on IntelliJ and Scala Compiler Issues</span>
 
 IntelliJ IDEA uses its own embedded Scala compiler implementation, which may report errors in the editor even though SBT can compile and run the project without any problems. This issue arises because IntelliJ's embedded compiler might not be fully compatible with Scala 3 features or your project's specific setup. However, as long as your project runs correctly using SBT (as described in the PowerShell instructions), you can ignore these IntelliJ errors.
 
@@ -126,4 +147,4 @@ For any questions or issues, please open an issue in the GitHub repository or co
 **Name**: Kyriakidis Dimitrios  
 **GitHub**: [kyriakidisdimitrios](https://github.com/kyriakidisdimitrios)  
 **LinkedIn**: [kyriakidis-demetrios](https://www.linkedin.com/in/kyriakidis-demetrios)
-# scala-learning
+
