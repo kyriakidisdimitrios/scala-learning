@@ -1,7 +1,8 @@
 object HelloWorld:
 
   def main(args: Array[String]): Unit =
-    println("Hello World2!")
+    println("Hello World23")
+    
     // Uncomment these lines as needed to test different functions
     // val result = add(2, 5)
     // println(s"Addition of 2 and 5 is: $result")
