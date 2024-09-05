@@ -8,6 +8,10 @@ This project is for learning Scala as part of the module <strong>COMP40070 Desig
 
 This repository contains Scala 3 projects to help with learning and experimenting with Scala. It includes instructions for setting up Scala 3 on a PC, including Java JDK, Scala CLI, SBT, and using IntelliJ IDEA Ultimate.
 
+## <span style="color: #ff6600;">Managing Multiple Main Methods</span>
+
+In this project, Scala files may contain multiple `main()` methods across different sections (e.g., `section_1_ObjectName`, `section_2_ObjectName`). To run a specific `main()` method: Comment / Uncomment the rest files containing `main()` with Ctrl + A, Ctrl + / .
+
 ## <span style="color: #ffcc00;">Prerequisites</span>
 
 - <strong>Java JDK</strong>: 18.0.2
