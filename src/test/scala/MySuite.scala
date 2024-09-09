@@ -7,5 +7,6 @@ class MySuite extends FunSuite {
   test("increment should return 3 when y starts at 2") {
     val result = increment()  // Call the function from main/scala
     assertEquals(result, 3)   // Check that result equals 3
+    
   }
 }
